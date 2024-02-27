@@ -2,12 +2,12 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
+    path: '/ejsSpreadsheet',
+    name: 'ejsSpreadsheet',
     meta: {
-      title: '首頁'
+      title: 'EjsSpreadsheet'
     },
-    component: () => import('@/views/HomeView.vue')
+    component: () => import('@/views/EjsSpreadsheet.vue')
   }
 ]
 

@@ -1,4 +1,10 @@
 <template>
+  <ul class="d-flex">
+    <li>
+      <RouterLink to='/ejsSpreadsheet' active-class='active'>ejsSpreadsheet(需收費)</RouterLink>
+    </li>
+  </ul>
+
   <RouterView />
 </template>
 
