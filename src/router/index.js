@@ -2,6 +2,14 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
+    path: '/',
+    name: 'univer',
+    meta: {
+      title: 'univer'
+    },
+    component: () => import('@/views/Univer.vue')
+  },
+  {
     path: '/ejsSpreadsheet',
     name: 'ejsSpreadsheet',
     meta: {

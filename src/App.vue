@@ -1,5 +1,9 @@
 <template>
-  <ul class="d-flex">
+  <ul class="position-absolute top-0 d-flex" style="z-index:99999999999;">
+    <li>
+      <RouterLink to='/' active-class='active'>Univer 套件</RouterLink>
+    </li>
+    <li class="mx-10"> | </li>
     <li>
       <RouterLink to='/ejsSpreadsheet' active-class='active'>ejsSpreadsheet(需收費)</RouterLink>
     </li>
